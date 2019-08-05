@@ -1,7 +1,7 @@
 #!/bin/bash
 # bash script for backlog processing
 # cd /your/Shopware-Verzeichnis/
-PIDFILE=/tmp/plentyconnector_backlog.pid
+PIDFILE=~/tmp/plentyconnector_backlog.pid
 
 if [ -f $PIDFILE ]
 then
